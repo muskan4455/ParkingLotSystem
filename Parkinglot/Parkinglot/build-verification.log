@@ -1,0 +1,123 @@
+Initialized native services in: C:\Users\kashy\.gradle\native
+Initialized jansi services in: C:\Users\kashy\.gradle\native
+The client will now receive all logging from the daemon (pid: 7436). The daemon log file: C:\Users\kashy\.gradle\daemon\9.7.1\daemon-7436.out.log
+Starting 6th build in daemon [uptime: 13 mins 14.354 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 20% of 384 MiB]
+Using 12 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, isolatedProjectsDiagnostics=false, isolatedProjectsDangerouslyIgnoreProblems=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=false, vintage=true}
+Now considering [C:\Users\kashy\Downloads\Parkinglot\Parkinglot] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\kashy\Downloads\Parkinglot\Parkinglot\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\kashy\Downloads\Parkinglot\Parkinglot\build.gradle'.
+Included projects: [root project 'Parkinglot']
+
+> Configure project :
+Evaluating root project 'Parkinglot' using build file 'C:\Users\kashy\Downloads\Parkinglot\Parkinglot\build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '4.1.1']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'Parkinglot'
+Applying dependency management to configuration 'apiElements' in project 'Parkinglot'
+Applying dependency management to configuration 'archives' in project 'Parkinglot'
+Applying dependency management to configuration 'bootArchives' in project 'Parkinglot'
+Applying dependency management to configuration 'compileClasspath' in project 'Parkinglot'
+Applying dependency management to configuration 'compileOnly' in project 'Parkinglot'
+Applying dependency management to configuration 'default' in project 'Parkinglot'
+Applying dependency management to configuration 'developmentOnly' in project 'Parkinglot'
+Applying dependency management to configuration 'implementation' in project 'Parkinglot'
+Applying dependency management to configuration 'mainSourceElements' in project 'Parkinglot'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'Parkinglot'
+Applying dependency management to configuration 'runtimeClasspath' in project 'Parkinglot'
+Applying dependency management to configuration 'runtimeElements' in project 'Parkinglot'
+Applying dependency management to configuration 'runtimeOnly' in project 'Parkinglot'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'Parkinglot'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'Parkinglot'
+Applying dependency management to configuration 'testCompileClasspath' in project 'Parkinglot'
+Applying dependency management to configuration 'testCompileOnly' in project 'Parkinglot'
+Applying dependency management to configuration 'testImplementation' in project 'Parkinglot'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'Parkinglot'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'Parkinglot'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'Parkinglot'
+All projects evaluated.
+Task name matched 'test'
+Selected primary task 'test' from project :
+Resolving global dependency management for project 'Parkinglot'
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#304,Execution worker,5,main]) started.
+:compileJava (Thread[#304,Execution worker,5,main]) started.
+
+> Task :compileJava UP-TO-DATE
+Custom actions are attached to task ':compileJava'.
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Skipping task ':compileJava' as it is up-to-date.
+Resolve mutations for :processResources (Thread[#305,Execution worker Thread 2,5,main]) started.
+:processResources (Thread[#304,Execution worker,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :classes (Thread[#305,Execution worker Thread 2,5,main]) started.
+:classes (Thread[#304,Execution worker,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :compileTestJava (Thread[#304,Execution worker,5,main]) started.
+:compileTestJava (Thread[#305,Execution worker Thread 2,5,main]) started.
+
+> Task :compileTestJava
+Custom actions are attached to task ':compileTestJava'.
+Caching disabled for task ':compileTestJava' because:
+  Build cache is disabled
+Task ':compileTestJava' is not up-to-date because:
+  Input property 'stableSources' file C:\Users\kashy\Downloads\Parkinglot\Parkinglot\src\test\java\com\example\parkinglot\ParkinglotApplicationTests.java has changed.
+Compilation mode: in-process compilation
+Created classpath snapshot for incremental compilation in 0.027 secs.
+Compiling with toolchain 'C:\Program Files\Eclipse Adoptium\jdk-21.0.12.8-hotspot'.
+Compiling with JDK Java compiler API.
+Incremental compilation of 1 classes completed in 0.726 secs.
+Class dependency analysis for incremental compilation took 0.003 secs.
+Resolve mutations for :processTestResources (Thread[#309,Execution worker Thread 6,5,main]) started.
+:processTestResources (Thread[#309,Execution worker Thread 6,5,main]) started.
+
+> Task :processTestResources NO-SOURCE
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+Resolve mutations for :testClasses (Thread[#309,Execution worker Thread 6,5,main]) started.
+:testClasses (Thread[#305,Execution worker Thread 2,5,main]) started.
+
+> Task :testClasses
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :test (Thread[#305,Execution worker Thread 2,5,main]) started.
+:test (Thread[#305,Execution worker Thread 2,5,main]) started.
+
+> Task :test FAILED
+Caching disabled for task ':test' because:
+  Build cache is disabled
+Task ':test' is not up-to-date because:
+  Value of input property 'filter.commandLineIncludePatterns' has changed for task ':test'
+Generating HTML test report...
+Finished generating test html results (0.008 secs) into: C:\Users\kashy\Downloads\Parkinglot\Parkinglot\build\reports\tests\test
+Finished generating test XML results (0.0 secs) into: C:\Users\kashy\Downloads\Parkinglot\Parkinglot\build\test-results\test
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> No tests found for given includes: [com.example.parkinglot.ParkinglotApplicationTests](--tests filter)
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 3s
+4 actionable tasks: 2 executed, 2 up-to-date
+Watched directory hierarchies: [C:\Users\kashy\Downloads\Parkinglot\Parkinglot]
